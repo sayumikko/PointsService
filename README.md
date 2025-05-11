@@ -28,7 +28,9 @@
 
 2. Установите .NET 6 SDK.  
 3. Если необходимо, установите 
-```npm install konva```
+```
+    npm install konva
+```
 4. Запустите проект из корневой папки 
 
 ```dotnet restore```
@@ -51,4 +53,5 @@
 
 ## Контакты:
 Email: kuksant2708@mail.ru
+
 Telegram: @Sayumiko
