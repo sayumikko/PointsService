@@ -1,0 +1,69 @@
+#edit-form,
+#comment-form,
+#edit-comment-form {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  width: 240px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: sans-serif;
+  z-index: 1000;
+  position: absolute;
+}
+
+.form-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+
+.close-form {
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #888;
+}
+.close-form:hover {
+  color: #000;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+label input {
+  margin-top: 4px;
+  display: block;
+  width: 100%;
+}
+
+textarea,
+input[type="number"],
+input[type="color"] {
+  width: 100%;
+  padding: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#edit-form button:not(.close-form),
+#comment-form button:not(.close-form),
+#edit-comment-form button:not(.close-form) {
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#edit-form button:hover,
+#comment-form button:hover,
+#edit-comment-form button:hover {
+  background-color: #1b5fbb;
+}
